@@ -65,7 +65,7 @@ public class Homework2 {
 
     public static void task7(int[] arr, int n) {
 
-     //   n = -n;
+     
 
         int vector = n > 0 ? 1:-1;
 
