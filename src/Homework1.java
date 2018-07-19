@@ -26,10 +26,10 @@ public class Homework1 {
            }
        }
 
-       int[] arr = {1,2,3,4,5,6};
-       System.out.println(Arrays.toString(arr));
-       Homework2.task7(arr,-4);
-       System.out.println(Arrays.toString(arr));
+//       int[] arr = {1,2,3,4,5,6};
+//       System.out.println(Arrays.toString(arr));
+//       Homework2.task7(arr,-4);
+//       System.out.println(Arrays.toString(arr));
 
     }
 
