@@ -1,3 +1,8 @@
+/** Домашнее задание №2
+ * @version 19.07.2018
+ * @author rashid_ba
+ */
+
 public class Homework2 {
 
     public static void task1() {
@@ -65,16 +70,13 @@ public class Homework2 {
 
     public static void task7(int[] arr, int n) {
 
-     
-
         int vector = n > 0 ? 1:-1;
-
         for (int i = 0; i < n*vector; i++) {
 
-            int a = vector > 0 ? 0 : arr.length - 1 ;
+            int a = vector < 0 ? 0 : arr.length - 1 ;
             int buffer = arr[a];
             for (int j = 0; j < arr.length-1; j++) {
-                arr[vector*j+a] = arr[vector*j+a+vector];
+                arr[a-j*vector] = arr[a-j*vector-vector];
             }
             arr[(arr.length-1)-a] = buffer;
         }
