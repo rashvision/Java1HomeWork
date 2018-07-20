@@ -1,3 +1,8 @@
+/** Домашнее задание №1
+ * @version 19.07.2018
+ * @author Рашид Бахмутов
+ */
+
 import java.util.Arrays;
 
 public class Homework1 {
@@ -30,6 +35,8 @@ public class Homework1 {
 //       System.out.println(Arrays.toString(arr));
 //       Homework2.task7(arr,-4);
 //       System.out.println(Arrays.toString(arr));
+
+        Homework3.task1();
 
     }
 

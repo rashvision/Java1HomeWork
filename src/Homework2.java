@@ -1,6 +1,6 @@
 /** Домашнее задание №2
  * @version 19.07.2018
- * @author rashid_ba
+ * @author Рашид Бахмутов
  */
 
 public class Homework2 {
