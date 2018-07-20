@@ -22,6 +22,11 @@ public class Homework3 {
                 System.out.println("Введите число от 0 до 9..");
                 int a = scanner.nextInt();
 
+                if (a > 9 || a < 0) {
+                    System.out.println("Введено некорректное число");
+                    break;
+                }
+
                 if (a > x)
                     System.out.println("Число " + a + " больше чем загаданное");
                 else if (a < x)
