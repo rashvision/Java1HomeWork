@@ -56,14 +56,6 @@ public class Homework4 {
             System.out.println("Игра закончена");
         }
         public static boolean checkWin(char symb) {
-//              Алгоритм проверки для мартицы 3х3:
-//            for (int i = 0; i < SIZE; i++) {
-//                if(map[i][0] == symb && map[i][1] == symb && map[i][2] == symb) return true;
-//                if(map[0][i] == symb && map[1][i] == symb && map[2][i] == symb) return true;
-//            }
-//            if (map[0][0] == symb && map[1][1] == symb && map[2][2] == symb) return true;
-//            if (map[2][0] == symb && map[1][1] == symb && map[0][2] == symb) return true;
-
         // универсальный алгоритм проверки выигрыша
 
             if (gameTurns < DOTS_TO_WIN)
