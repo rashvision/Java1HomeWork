@@ -36,7 +36,7 @@ public class Homework1 {
 //       Homework2.task7(arr,-4);
 //       System.out.println(Arrays.toString(arr));
 
-        Homework4.letsPlay();
+        Homework4.letsPlay(6,4);
 
     }
 
