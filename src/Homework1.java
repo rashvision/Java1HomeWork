@@ -10,35 +10,30 @@ public class Homework1 {
     //задание 1
     public static void main(String[] args) {
 
-    // задание 2
-        int a = 0;
-        long b = 0;
-        short c = 0;
-        boolean d = false;
-        String e = "First homework";
-        char f = 'f';
-        float g = 0f;
-        double h = 0d;
+//    // задание 2
+////        int a = 0;
+////        long b = 0;
+////        short c = 0;
+////        boolean d = false;
+////        String e = "First homework";
+////        char f = 'f';
+////        float g = 0f;
+////        double h = 0d;
+////
+////       int n = 6;
+////       for (int i = 0;i<3;++i){
+////           try {
+////               n/=i;
+////
+////           }
+////           catch (Exception y) {
+////               n+=2;
+////           }
+////       }
 
-       int n = 6;
-       for (int i = 0;i<3;++i){
-           try {
-               n/=i;
-
-           }
-           catch (Exception y) {
-               n+=2;
-           }
-       }
-
-//       int[] arr = {1,2,3,4,5,6};
-//       System.out.println(Arrays.toString(arr));
-//       Homework2.task7(arr,-4);
-//       System.out.println(Arrays.toString(arr));
-
-        Homework4.letsPlay(6,4);
-
+        Homework5.start();
     }
+
 
     // задание 3
     private static float formula(int a, int b, int c, int d) {
